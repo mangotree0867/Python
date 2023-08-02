@@ -22,3 +22,6 @@ class CrawlingSpider(CrawlSpider):
             "info": response.css(".title-KX2tCBZq::text").get(),
             "Symbol": response.css(".description-cBh_FN2P::text").get(),
         }
+
+
+# test for git
